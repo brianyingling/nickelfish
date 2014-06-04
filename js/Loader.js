@@ -1,6 +1,5 @@
 // Responsible for fetching the data
 // based on name.
-
 var Loader = {
 
   get: function(filename, callback) {

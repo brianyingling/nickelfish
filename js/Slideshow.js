@@ -9,7 +9,6 @@ function Slideshow(curtain) {
 
   Loader.get('slideshow.json', function(resp) {
     this.slides = resp.projects;
-    console.log(this.slides);
 
     // load the first image and text into the DOM
     $('#slide-image').attr('src',this.slides[0].image);
