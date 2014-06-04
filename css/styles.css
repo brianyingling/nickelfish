@@ -43,9 +43,15 @@ body {
   vertical-align: bottom;
 }
 
+.slide {
+  position: relative;
+  left: -220px;
+}
+
 #slide-text {
   position: absolute;
-  top: 360px;
+  /*top: 360px;*/
+  top: 275px;
   left: 350px;
   width: 250px;
   height: 50px;
@@ -121,11 +127,21 @@ body {
 
 .nav ul li.highlight {
   background-color: rgb(255,255,255);
-  color: cyan;
+  color: rgb(70,255,252);
 }
 
 .nav ul li.last {
   position: relative;
   top: 9px;
+}
+
+@media all and (min-width: 1565px) {
+  #slide-text {
+    top: 360px;
+  }
+  .slide {
+    left: 16px;
+  }
+
 }
 
