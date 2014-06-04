@@ -32,7 +32,7 @@ body {
 
 #curtain {
   position: absolute;
-  width: 100%;
+  width: 102%;
   height: 20px;
   background-color: #000000;
   z-index: 9999;
@@ -59,6 +59,8 @@ body {
 }
 
 .nav ul {
+  position: relative;
+  right: -15px;
   margin-top: 10px;
   float: right;
   display: block;
