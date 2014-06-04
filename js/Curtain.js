@@ -1,5 +1,4 @@
 function Curtain(cssSelector) {
-  var self = this;
   this.cssSelector = cssSelector;
 }
 

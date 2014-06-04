@@ -27,7 +27,6 @@ Slideshow.prototype = {
     timer = setInterval(function() {
       self.index++;
       self.curtain.drop(function() {
-
         // reset index counter
         if (self.index === this.slides.length)
           self.index = 0;
