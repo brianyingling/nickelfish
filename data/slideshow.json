@@ -1,0 +1,21 @@
+{
+	"projects":
+	[
+		{
+			"name": "YouGiveGoods",
+			"image": "slideshow/yougivegoods.jpg"
+		},
+		{
+			"name": "Genentech",
+			"image": "slideshow/genentech.jpg"
+		},
+		{
+			"name": "McCann Worldgroup",
+			"image": "slideshow/mccann.jpg"
+		},
+		{
+			"name": "Tradjenta",
+			"image": "slideshow/tradjenta.jpg"
+		}
+	]
+}
